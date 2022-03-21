@@ -1,0 +1,17 @@
+/* shared rule for class="first" and class="second" */
+.first,
+.second {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+/* additional rule for first element */
+.first {
+    background-color: black;
+    color: white;
+}
+
+/* additional rule for second element */
+.second {
+    background-color: yellow;
+}
