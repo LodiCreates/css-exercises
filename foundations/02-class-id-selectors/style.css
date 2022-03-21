@@ -1,0 +1,23 @@
+/* rule for class="odd" */
+.odd {
+    background-color: #efa2a9;
+    font-family: "Verdana", "DejaVu Sans", sans-serif
+}
+
+/* rule for id="second" */
+#second {
+    color: rgb(0, 0, 255);
+    font-size: 36px;
+}
+
+/* rule for class="cool" */
+.cool {
+    font-size: 24px;
+}
+
+/* rule for id="fourth" */
+#fourth {
+    background-color: hsl(91, 100%, 72%);
+    font-size: 24px;
+    font-weight: bold;
+}
