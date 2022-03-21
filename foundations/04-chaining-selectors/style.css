@@ -1,0 +1,11 @@
+/* rule for class="avatar" and class="proportioned" */
+.avatar.proportioned {
+    height: auto;
+    width: 300px;
+}
+
+/* rule for class="avatar" and class "distorted" */
+.avatar.distorted {
+    height: 400px;
+    width: 200px;
+}
