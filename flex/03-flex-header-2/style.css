@@ -12,6 +12,37 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  padding: 8px;
+  /* make entire header a flex container */
+  display: flex;
+  align-items: center;
+}
+
+/* group items on left and put gap between logo and links */
+.header-left {
+  /* flex container*/
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-right {
+  /* flex container */
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  /* flex item */
+  margin-left: auto;
+}
+
+ul {
+  list-style-type: none;
+  /* flex container */
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  /* remove default padding */
+  padding: 0px;
 }
 
 .profile-image {
@@ -41,8 +72,4 @@ a {
   /* this removes the line under our links */
   text-decoration: none;
   color: rebeccapurple;
-}
-
-ul {
-  list-style-type: none;
 }
